@@ -39,9 +39,7 @@ But as soon as I slow down the movement of the people, the big oscillations disa
 <br>/Virus3spread/bin/Release/net8.0-windows7.0/*.*  to any folder, and double click Virus3spread.exe to run the Simulation.
 <br>
 <br>
-<br>
 License: open source - MIT License
-<br>
 <br>
 Disclaimer see link: [DISCLAIMER](https://github.com/gitfrid/virus3spread/blob/9b88d38e774d4e6cd7aeb9dab40aeffbb2d0d45e/Disclaimer.md)!
 
