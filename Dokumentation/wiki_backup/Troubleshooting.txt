@@ -1,0 +1,11 @@
+## **In case of problems with the application**
+<br>
+
+1. Delete the configuration XML file
+1. Delete the LastConfigFileLocation.XML in folder "%appdata%\Virus3spread\LastConfigFileLocation.XML"
+<br>
+
+**This restores the default configuration.**
+<br>
+<br>
+The path of the current configuration can be seen in the program, or in the LastConfigFileLocation.XML file.

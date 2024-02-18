@@ -1,0 +1,45 @@
+1 Open PowerShell as an administrator.
+2 Run the following command to create a self-signed certificate:
+
+New-SelfSignedCertificate -CertStoreLocation Cert:\CurrentUser\My -Type CodeSigningCert -Subject "CN=virus2spreadSetupCert" -FriendlyName "Gitfrid"
+
+Thumbprint                                Subject
+----------                                -------
+F28154FAFC6A8A540A3CF9527A05C81BA7A7FD58  CN=virus2spreadSetupCert
+
+
+This will create a new self-signed certificate and store it in the current user’s personal certificate store.
+
+To sign a setup file with PowerShell, you can use the Set-AuthenticodeSignature cmdlet 2. Here are the steps to follow:
+
+1 Open PowerShell as an administrator.
+2 Run the following command to sign the setup file:
+Set-AuthenticodeSignature -FilePath "C:\Github\virus2spread\virus2spreadSetup\Release\virus2spreadSetup.msi" -Certificate (Get-ChildItem Cert:\CurrentUser\My -CodeSigningCert) -TimestampServer "http://timestamp.digicert.com"
+$cert = Get-ChildItem Cert:\CurrentUser\My\*F28154FAFC6A8A540A3CF9527A05C81BA7A7FD58
+Set-AuthenticodeSignature -FilePath "C:\Github\virus3spread\virus3spreadSetup\Release\virus3spreadSetup.msi" -Certificate (Get-ChildItem Cert:\CurrentUser\My\*F28154FAFC6A8A540A3CF9527A05C81BA7A7FD58) -TimestampServer "http://timestamp.digicert.com" 
+
+Open PowerShell and run the following command to list all certificates in the Cert:\CurrentUser\My store:
+Get-ChildItem Cert:\CurrentUser\My
+
+1 Identify the certificate you want to use and note its thumbprint or subject.
+2 To use the thumbprint, run the following command, replacing <thumbprint> with the actual thumbprint of the certificate:
+
+$cert = Get-ChildItem Cert:\CurrentUser\My -Thumbprint f28154fafc6a8a540a3cf9527a05c81ba7a7fd58 Set-AuthenticodeSignature -FilePath "C:\Github\virus2spread\virus2spreadSetup\Release\virus2spreadSetup.msi" -Certificate $cert -TimestampServer "http://timestamp.digicert.com"
+
+$cert = Get-ChildItem Cert:\CurrentUser\My\*F28154FAFC6A8A540A3CF9527A05C81BA7A7FD58
+
+
+
+
+The private key of the self-signed certificate created with the PowerShell command New-SelfSignedCertificate is stored in the Windows Certificate Store 
+The location of the private key file is usually in the C:\ProgramData\Microsoft\Crypto\RSA folder 3.
+
+To locate the private key file, you can follow these steps:
+
+Open the Certificate Manager by pressing the Windows key + R and typing certmgr.msc.
+In the Certificate Manager, navigate to Personal > Certificates.
+Find the certificate you created and right-click on it.
+Select All Tasks > Export to open the Certificate Export Wizard.
+Follow the wizard to export the certificate and select the option to include the private key.
+Choose a location to save the exported certificate and complete the wizard.
+I hope this helps!

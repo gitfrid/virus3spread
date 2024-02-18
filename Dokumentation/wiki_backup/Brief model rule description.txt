@@ -1,0 +1,21 @@
+## Brief model rule description
+
+At the beginning, a fixed number of viruses and people are randomly distributed on a rectangular grid field.
+
+Viruses and persons can move randomly on the rectangular grid in a defined square area.
+
+Several people or viruses can be located on one coordinate of the grid field.
+
+If one or more persons meet one or more viruses on a grid coordinate, 
+then these persons get infected.
+
+A person goes through three periods.
+Latency, infection and immunity
+<br>
+<br>
+<img src="https://github.com/gitfrid/virus3spread/blob/4085fe1f396ecea13f3a53529c79b4678e848cbe/Dokumentation/ModelRules/periodes.png" width="600" height="auto">
+<br>
+<br>
+In the infectious period, a person can reproduce a defined fixed number of viruses at each iteration.
+
+A virus has a certain lifespan, after which it decays and is deleted.

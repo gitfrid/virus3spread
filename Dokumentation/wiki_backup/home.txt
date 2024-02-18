@@ -1,0 +1,31 @@
+## virus3spread virus distribution model-simulation
+
+**An attempt to  DR Clare Craig's hypothesis about airborne virus contagion -> Book Expired.**
+<br>
+To investigate annually recurring waves from the momentum of a chaotic system, and study or play with it's dynamics.
+<br>
+Since the linear sientific SIR model used, seems to differ from reality.
+
+
+So what is special about this simulation?
+Most other simulations already assume the droplet theory, this one does not.
+
+**Forked from virus2spread and implemented a very simple virus reproduction and immune system.**
+
+
+**For certain parameters, a damped oscillation results solely from the internal properties of this simple model.**
+<br>
+Whether the model can explain the recurring waves, would have to be investigated by real measurements or experiments.
+<br>
+As soon as I slow down the movement of the people, the big oscillations disappear. 
+<br>
+
+**Provided that the code is free of errors?**
+<br>
+<br>
+**Hints**
+<br>It is possible to save and open the configuration as an xml file.
+<br>The diagrams can be saved as a bitmap with the right mouse button.
+<br>Or the plot data can be exported and saved to a CSV file.
+<br>For some parameters, such as colors, the application must be closed and reopened for the change to take effect.
+<br>

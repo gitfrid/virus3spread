@@ -1,0 +1,50 @@
+**virus2spread virus distribution model-simulation**
+
+**Here arises an attempt to test DR Clare Craig's hypothesis about airborne virus contagion -> Book Expired**.
+<br> 
+To investigate annually recurring waves from the momentum of a chaotic system, and study or play with it's dynamics.
+<br> 
+Since the linear sientific SIR model used, seems to differ from reality.
+<br>
+<br> 
+<br>So what is special about this simulation?
+<br>Most other simulations already assume the droplet theory, this one does not. 
+<br> 
+<br>Further information see ![virus3spread wiki](https://github.com/gitfrid/virus3spread/wiki)
+<br> 
+ **Forked from virus2spread and implemented a simple virus reproduction and immune system**
+<br>
+<br>
+<br> 
+**For certain parameters, a damped oscillation results solely from the internal properties of this simple model.**
+<br>
+But as soon as I slow down the movement of the people, the big oscillations disappear. 
+<br> 
+<br> 
+<br>For maximal Iteration speed minimize the render Simulation Window to the Windows Taskbar.
+<br>
+<br>
+![Virus3spread_screenshot](https://github.com/gitfrid/virus3spread/blob/33d0f33cbea78196ff4069c72b3088778c2a96f9/Dokumentation/small%20changeg%20in%20imune%20system%20damped%20oscillations.png)
+<br>
+<br>
+<br>
+**Installation:**
+<br>
+<br>**Prerequisite: Microsoft .Net 8 has to be installed first!** https://dotnet.microsoft.com/en-us/download
+<br>
+<br>Download the ![Virus3SpreadSetup.msi](https://github.com/gitfrid/virus3spread/blob/2dcb97490bbf35179c32e3890b7fa6eaa9a45a56/virus3spreadSetup/Release/virus3spreadSetup.msi) to install the Software.
+<br>In github folder ![virus3spreadSetup/Release/](https://github.com/gitfrid/virus3spread/tree/2dcb97490bbf35179c32e3890b7fa6eaa9a45a56/virus3spreadSetup/Release)
+<br>Thumbprint self signd certificate: 47b1d459a22eeb3e66c40c7dc8d2d5d4b8250e70
+<br>
+<br>Alternative, it is  sufficient if only the binary files are copied fom this github folder: 
+<br>/Virus3spread/bin/Release/net8.0-windows7.0/*.*  to any folder, and double click Virus3spread.exe to run the Simulation.
+<br>
+<br>**Attention!!!**
+<br>A security prompt **"The computer has been protected by Windows"** or **"The publisher is unknown"** appears, when you first run the setup or the software.
+This is because the software is only digitally signed with a private certifacate, i.e. the publisher of the software is unknown, and has no officially certified digital ID.
+<br>
+<br>
+License: open source - MIT License
+<br>
+Disclaimer: Just a simulation model, for use out of pure curiosity, not to force people.
+

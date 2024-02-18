@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirusSpreadLibrary", "VirusSpreadLibrary\VirusSpreadLibrary.csproj", "{03F3FD3E-F125-47A5-B891-98AEC799BECC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Virus3spread", "Virus3spread\Virus3spread.csproj", "{C53CAF2A-8790-4611-8F92-2013A8717DB1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "virus3spreadSetup", "virus3spreadSetup\virus3spreadSetup.vdproj", "{D801CA56-613B-45BD-9F61-D5B33797FFBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F3FD3E-F125-47A5-B891-98AEC799BECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F3FD3E-F125-47A5-B891-98AEC799BECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F3FD3E-F125-47A5-B891-98AEC799BECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F3FD3E-F125-47A5-B891-98AEC799BECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53CAF2A-8790-4611-8F92-2013A8717DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53CAF2A-8790-4611-8F92-2013A8717DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53CAF2A-8790-4611-8F92-2013A8717DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53CAF2A-8790-4611-8F92-2013A8717DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D801CA56-613B-45BD-9F61-D5B33797FFBF}.Debug|Any CPU.ActiveCfg = Debug
+		{D801CA56-613B-45BD-9F61-D5B33797FFBF}.Release|Any CPU.ActiveCfg = Debug
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D75C376A-DD08-47BD-A91F-B4E9AC489D93}
+	EndGlobalSection
+EndGlobal

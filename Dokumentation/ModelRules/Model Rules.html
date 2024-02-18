@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Model Rules</title>
+</head>
+<body>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB">
+<font face="Arial, sans-serif"><font style="font-size: 16pt;" size="4"><b>Rules
+of the </b></font><font style="font-size: 16pt;" size="4"><b>Model</b></font><br>
+
+<br>
+
+<br>
+
+There
+are persons and viruses as a generic term called creatures.<br>
+
+<br>
+
+The
+initial population of people is fixed and cannot change.<br>
+
+<br>
+
+The
+initial population of viruses is also fixed, but can change over
+time/iterations.<br>
+
+<br>
+
+There is a two-dimensional rectangular
+grid with integer x, y coordinated<br>
+
+<br>
+
+Days/iterations
+represent the flow of time at different integer points in time 1-n<br>
+
+<br>
+
+A
+creature can be located at exactly one x,y coordinate at any one
+time.<br>
+
+<br>
+
+A creature has exactly one initial randomly chosen
+home coordinate on the grid.<br>
+
+<br>
+
+There can be any number of
+creatures on any grid coordinate x,y.<br>
+
+<br>
+
+Creatures can move
+randomly on the grid in any direction within a given square
+area.<br>
+
+<br>
+
+Creatures can move globally or locally, i.e. not
+globally.<br>
+
+<br>
+
+Creatures move globally by using the end point
+of the last movement,<br>
+i.e. the current coordinate position, as the
+starting point for the next random movement within the square
+area.<br>
+
+<br>
+
+Creatures move localy by using the home coordinate
+as starting point for the next random movement within the square
+area.<br>
+
+<br>
+
+The square area for the movement can vary each
+iteration,&nbsp;</font></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><font face="Arial, sans-serif">by randomly selecting a tuple from a fixed set of tuples
+at each iteration. 1, 20 ; 1, 20; 1, 30; 1,200<br>
+
+</font></p>
+
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><font face="Arial, sans-serif">Creatures
+can move back to the home coordinate every x-th iteration if MoveHome
+is true.&nbsp;<br>
+Where x is an integer.</font></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><img style="width: 674px; height: 446px;" alt="move range" src="file:///C:/Users/adm/Pictures/move%20range.png"></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB">
+<font face="Arial, sans-serif"></font></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><font face="Arial, sans-serif">Green arrow move back home is true</font></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><img style="width: 852px; height: 493px;" alt="global movement" src="file:///C:/Users/adm/Pictures/Global%20Movement.png"></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB">
+<font face="Arial, sans-serif"><b>Infection:</b><br>
+
+<br>
+
+If one or
+more people on the same coordinate encounter a virus, they all become
+infected.</font></p>
+
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><br>
+
+
+</p>
+
+
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><font face="Arial, sans-serif">The
+<b>latency </b><b>period</b> is a certain number of
+days/iterations</font></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><font face="Arial, sans-serif">
+The <b>infectio</b><b>us</b><b> period</b>
+afterwards is again a certain number of days/iterations</font></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><font face="Arial, sans-serif">
+The
+<b>reinfection immunity</b> periode afterwards is again a certain
+number of days/iterations<br>
+during
+which the person cannot get reinfected.&nbsp;</font></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><img style="width: 1402px; height: 176px;" alt="periodes" src="file:///C:/Users/adm/Pictures/periodes.png"></p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"><font face="Arial, sans-serif"></font>
+</p>
+<p style="line-height: 100%; margin-bottom: 0cm;" lang="en-GB"></p>
+</body>
+</html>
