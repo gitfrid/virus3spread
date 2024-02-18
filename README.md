@@ -32,7 +32,7 @@ But as soon as I slow down the movement of the people, the big oscillations disa
 <br>
 <br>**Prerequisite: Microsoft .Net 8 has to be installed first!** https://dotnet.microsoft.com/en-us/download
 <br>
-<br>The binaries and the setup can be compiled with the free Microsoft Visual Studio Comunity 2022 Edition. 
+<br>The binary files and a program setup file can be compiled with the free Microsoft Visual Studio Community 2022 Edition. 
 <br>Just download Visual Studio , open the Project and click the Bulid Menu.
 <br>
 <br>Alternative to the Setup , it is  sufficient if only the binary files are copied fom the compiled folder: 
