@@ -35,9 +35,9 @@ But as soon as I slow down the movement of the people, the big oscillations disa
 <br>The binaries and the setup can be compiled with the free Microsoft Visual Studio Comunity 2022 Edition. 
 <br>Just download Visual Studio , open the Project and click the Bulid Menu.
 <br>
-<br>
 <br>Alternative to the Setup , it is  sufficient if only the binary files are copied fom the compiled folder: 
 <br>/Virus3spread/bin/Release/net8.0-windows7.0/*.*  to any folder, and double click Virus3spread.exe to run the Simulation.
+<br>
 <br>
 <br>
 License: open source - MIT License
