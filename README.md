@@ -32,16 +32,12 @@ But as soon as I slow down the movement of the people, the big oscillations disa
 <br>
 <br>**Prerequisite: Microsoft .Net 8 has to be installed first!** https://dotnet.microsoft.com/en-us/download
 <br>
-<br>Download the ![Virus3SpreadSetup.msi](https://github.com/gitfrid/virus3spread/blob/2dcb97490bbf35179c32e3890b7fa6eaa9a45a56/virus3spreadSetup/Release/virus3spreadSetup.msi) to install the Software.
-<br>In github folder ![virus3spreadSetup/Release/](https://github.com/gitfrid/virus3spread/tree/2dcb97490bbf35179c32e3890b7fa6eaa9a45a56/virus3spreadSetup/Release)
-<br>Thumbprint self signd certificate: 47b1d459a22eeb3e66c40c7dc8d2d5d4b8250e70
+<br>The binaries and the setup can be compiled with the free Microsoft Visual Studio Comunity 2022 Edition. 
+<br>Just download Visual Studio , open the Project and click the Bulid Menu.
 <br>
-<br>Alternative, it is  sufficient if only the binary files are copied fom this github folder: 
+<br>
+<br>Alternative to the Setup , it is  sufficient if only the binary files are copied fom the compiled folder: 
 <br>/Virus3spread/bin/Release/net8.0-windows7.0/*.*  to any folder, and double click Virus3spread.exe to run the Simulation.
-<br>
-<br>**Attention!!!**
-<br>A security prompt **"The computer has been protected by Windows"** or **"The publisher is unknown"** appears, when you first run the setup or the software.
-This is because the software is only digitally signed with a private certifacate, i.e. the publisher of the software is unknown, and has no officially certified digital ID.
 <br>
 <br>
 License: open source - MIT License
