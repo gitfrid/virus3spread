@@ -42,5 +42,7 @@ But as soon as I slow down the movement of the people, the big oscillations disa
 <br>
 License: open source - MIT License
 <br>
-Disclaimer: Just a simulation model, for use out of pure curiosity, not to force people.
+<br>
+Disclaimer see link: [DISCLAIMER](https://github.com/gitfrid/virus3spread/blob/9b88d38e774d4e6cd7aeb9dab40aeffbb2d0d45e/Disclaimer.md)!
 
+Just a simulation model, for use out of pure curiosity, not to force people.
