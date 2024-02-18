@@ -9,20 +9,19 @@ Since the linear sientific SIR model used, seems to differ from reality.
 <br> 
 <br>So what is special about this simulation?
 <br>Most other simulations already assume the droplet theory, this one does not. 
-<br> 
-<br>Further information see ![virus3spread wiki](https://github.com/gitfrid/virus3spread/wiki)
-<br> 
- **Forked from virus2spread and implemented a simple virus reproduction and immune system**
 <br>
+<br>
+<br>
+ **Forked from virus2spread and implemented a simple virus reproduction and immune system**
+<br>Further information see ![virus3spread wiki](https://github.com/gitfrid/virus3spread/wiki)
 <br>
 <br> 
 **For certain parameters, a damped oscillation results solely from the internal properties of this simple model.**
+<br>As soon the movement of the people is slowd down, the big oscillations disappear. 
+<br>Some examples see ![Examples wiki](https://github.com/gitfrid/virus3spread/wiki/Examples-of-recurring-oscillations)
+<br> 
 <br>
-But as soon as I slow down the movement of the people, the big oscillations disappear. 
-<br> 
-<br> 
 <br>For maximal Iteration speed minimize the render Simulation Window to the Windows Taskbar.
-<br>
 <br>
 ![Virus3spread_screenshot](https://github.com/gitfrid/virus3spread/blob/df25a3806ab3e772d098f6518ea5ae881c148b1d/Dokumentation/samples/Sample1.png)
 <br>
