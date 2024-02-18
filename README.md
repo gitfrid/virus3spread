@@ -24,7 +24,7 @@ But as soon as I slow down the movement of the people, the big oscillations disa
 <br>For maximal Iteration speed minimize the render Simulation Window to the Windows Taskbar.
 <br>
 <br>
-![Virus3spread_screenshot](https://github.com/gitfrid/virus3spread/blob/33d0f33cbea78196ff4069c72b3088778c2a96f9/Dokumentation/small%20changeg%20in%20imune%20system%20damped%20oscillations.png)
+![Virus3spread_screenshot](https://github.com/gitfrid/virus3spread/blob/df25a3806ab3e772d098f6518ea5ae881c148b1d/Dokumentation/samples/Sample1.png)
 <br>
 <br>
 <br>
