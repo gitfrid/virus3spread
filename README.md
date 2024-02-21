@@ -21,7 +21,7 @@ Since the linear sientific SIR model used, seems to differ from reality.
 <br>Some examples see ![Examples wiki](https://github.com/gitfrid/virus3spread/wiki/Examples-of-recurring-oscillations)
 <br> 
 <br>
-The recurring waves can possibly be explained by the properties of the tightly coupled system.
+The recurring waves can possibly be explained by the properties of the coupled system.
 <br>Without having to resort to changes in the environment or the immune system.
 <br>
 <br>For maximal Iteration speed minimize the render Simulation Window to the Windows Taskbar.
