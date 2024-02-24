@@ -13,12 +13,12 @@ Since the linear sientific SIR model used, seems to differ from reality.
 <br>
 <br>
  **Forked from virus2spread and implemented a simple virus reproduction and immune system**
-<br>Further information see ![virus3spread wiki](https://github.com/gitfrid/virus3spread/wiki)
+<br>Further information see [virus3spread wiki](https://github.com/gitfrid/virus3spread/wiki)
 <br>
 <br> 
 **For certain parameters, a damped oscillation results solely from the internal properties of this simple model.**
 <br>As soon the movement of the people is slowd down, the big oscillations disappear. 
-<br>Some examples see ![Examples wiki](https://github.com/gitfrid/virus3spread/wiki/Examples-of-recurring-oscillations)
+<br>Some examples see [Examples wiki](https://github.com/gitfrid/virus3spread/wiki/Examples-of-recurring-oscillations)
 <br> 
 <br>
 The recurring waves can possibly be explained by the properties of the coupled system.
